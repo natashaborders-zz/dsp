@@ -31,3 +31,4 @@ After the Importing with Python section, the students should know how to:
 * Understand the basics of namespaces
 
 # Additional Resources
+
