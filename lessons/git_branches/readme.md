@@ -11,7 +11,7 @@ title: Git Branches
 * (30m) [Intro to Git Branches](Intro_to_Git_Branches.pdf)
 
 # Learning Objectives
-
+ 
 The students will learn:
 
 * Why branches are useful
