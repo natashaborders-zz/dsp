@@ -25,7 +25,7 @@ The students will be:
 
 ### Deep Copy
 
-The students will:
+The students will: 
 
 * Understand how the memory is assigned (roughly)
 * Understand why deep copy is necessary
