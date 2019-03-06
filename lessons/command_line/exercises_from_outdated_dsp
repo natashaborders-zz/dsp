@@ -1,0 +1,31 @@
+* pwd - shows current working directory path
+* mkdir - create a directory
+* rmdir - remove a directory
+* touch - creates a blank file
+* rm - delete a file
+* mv - rename a file
+* ls -a - lists hidden files
+* cp - copies a file from one directory to the other
+* man - using the manual to look up commands
+* echo $SHELL - tells you which shell you're using
+
+
+* ls - lists files in your directory
+* ls -a lists files in your directory including hidden ones
+* ls -l lists in long format, total sum of file sizes
+* ls -lh uses unit suffixes in the list of the total sum of file sizes, to reduce the number of digits to three or less.
+* ls _lah uses unit suffixes in the list of the total sum of file sizes and shows hidded files as well.
+* ls -t sort by time modified (most recently first) before sorting by name.
+* ls -Glp lists long format directories with "/" appended to the end and without user group names
+
+
+ls -alt* - lists all contents, including hidden files and directories, in long format, ordered by the date and time they were last modified.
+ls -1* - useful for looking at everything in its own line.
+ls -lh* - shows everything in readable format which is easy to understand.
+ls -u* - displays files by file access time.
+ls -p* - displays directories with / helping differentiate between directories and files.
+
+
+'xargs' is a command used to build and execute commands from standard input. It converts input from standard input into arguments to a command. It can take output from a command and then pass it as an argument to another command.
+For example, I can convert the output of 'ls -l' command into a single line using 'xargs':
+(base) Caseys-MacBook-Pro:~ nborders$ ls -l total 0 drwx------@ 5 nborders staff 160 Feb 12 09:09 Applications drwx------+ 4 nborders staff 128 Feb 15 11:07 Desktop drwx------+ 4 nborders staff 128 Feb 13 10:56 Documents drwx------+ 3 nborders staff 96 Feb 14 14:39 Downloads drwx------@ 11 nborders staff 352 Feb 12 09:26 Dropbox drwx------@ 63 nborders staff 2016 Feb 13 20:03 Library drwx------+ 3 nborders staff 96 Feb 5 21:58 Movies drwx------+ 4 nborders staff 128 Feb 6 20:48 Music drwx------+ 3 nborders staff 96 Feb 5 21:58 Pictures drwxr-xr-x+ 4 nborders staff 128 Feb 5 21:58 Public drwxr-xr-x 4 nborders staff 128 Feb 13 12:29 ds (base) Caseys-MacBook-Pro:~ nborders$ ls -l | xargs total 0 drwx------@ 5 nborders staff 160 Feb 12 09:09 Applications drwx------+ 4 nborders staff 128 Feb 15 11:07 Desktop drwx------+ 4 nborders staff 128 Feb 13 10:56 Documents drwx------+ 3 nborders staff 96 Feb 14 14:39 Downloads drwx------@ 11 nborders staff 352 Feb 12 09:26 Dropbox drwx------@ 63 nborders staff 2016 Feb 13 20:03 Library drwx------+ 3 nborders staff 96 Feb 5 21:58 Movies drwx------+ 4 nborders staff 128 Feb 6 20:48 Music drwx------+ 3 nborders staff 96 Feb 5 21:58 Pictures drwxr-xr-x+ 4 nborders staff 128 Feb 5 21:58 Public drwxr-xr-x 4 nborders staff 128 Feb 13 12:29 ds (base) Caseys-MacBook-Pro:~ nborders$
