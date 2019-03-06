@@ -27,7 +27,7 @@ You should know how to do the following tasks, *at the minimum*, on **nano** and
 1.  open a file  
 2.  edit a file  
 3.  save a file  
-4.  exit a file   
+4.  exit a file    
 
 Here's a basic list of commands:  
 
