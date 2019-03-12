@@ -13,6 +13,8 @@ You should be familiar with the following concepts:
 * systems of linear equations
 * eigenvalues
 
+
+
 ### Video Series
 
 An excellent **visual** introduction to Linear Algebra can be found [here](https://www.youtube.com/watch?v=kjBOesZCoqc&list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab).
