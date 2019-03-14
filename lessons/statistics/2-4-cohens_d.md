@@ -17,15 +17,15 @@ The difference in means is negative, first babies on average appear to be lighte
 
 Calculating pooled variance to figure out the pooled standard deviation:
 
-pooled_variance = (n_firsts*variance_firsts + n_others*variance_others)/(n_firsts+n_others)
-pooled_stdev = np.sqrt(pooled_variance)
-effect_size_d = difference/pooled_stdev
+    pooled_variance = (n_firsts*variance_firsts + n_others*variance_others)/(n_firsts+n_others)
+    pooled_stdev = np.sqrt(pooled_variance)
+    effect_size_d = difference/pooled_stdev
 
 The resulting Cohen's d:
 
-effect_size_d
+    effect_size_d
 
--0.088672927072602
+    -0.088672927072602
 
 The result indicates that the effect size is larger than for the difference in pregnancy length, equal to 0.0887 standard deviations
 
