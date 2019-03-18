@@ -98,9 +98,9 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 
 *Then, P(Identical Twin|Twin Boy) is:*
 
-P(A|B) = 1/2 * 1/300 /(1/300 * 1/2 + 1/125 * 1/4) = 5/11
+    P(A|B) = 1/2 * 1/300 /(1/300 * 1/2 + 1/125 * 1/4) = 5/11
 
-*So the probability that Elvis was a twin is 5/11.
+*So the probability that Elvis was a twin is 5/11.*
 
 
 
@@ -109,7 +109,11 @@ P(A|B) = 1/2 * 1/300 /(1/300 * 1/2 + 1/125 * 1/4) = 5/11
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+According to frequentists, only repeatable random events can have probabilities, because they can be equal to the long-term frequency of occurence of these events. 
+Anything that can only occur once shouldn't have a probability because the event is by definition not repeatable. So flipping a coin can have a probability because that can happen multiple times, but an election or a championship win for a certain year cannot.
+
+Bayesians base their probabilities on degrees of belief and logical support which means that they are fine with assigning probabilities to a one-time event and can use probabilities to represent the uncertainty in any event or hypothesis.
+
 
 ---
 
