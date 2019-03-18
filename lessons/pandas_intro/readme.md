@@ -7,7 +7,7 @@ title: Pandas Intro
 ---
 
 # Sample Lesson Plan
-
+ 
 * (30m) [EDA Presentation](Exploratory_Data_Analysis.key)
 * (60m) [Pandas Basics Notebook](Intro-to-Pandas.ipynb)
 * (30m + 15m Optional) [Pandas Exercise](pandas-exercise.ipynb) ([Solution](pandas-solution.ipynb))
