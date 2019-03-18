@@ -109,10 +109,10 @@ Elvis Presley had a twin brother who died at birth.  What is the probability tha
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
-According to frequentists, only repeatable random events can have probabilities, because they can be equal to the long-term frequency of occurence of these events. 
+*According to frequentists, only repeatable random events can have probabilities, because they can be equal to the long-term frequency of occurence of these events. 
 Anything that can only occur once shouldn't have a probability because the event is by definition not repeatable. So flipping a coin can have a probability because that can happen multiple times, but an election or a championship win for a certain year cannot.
 
-Bayesians base their probabilities on degrees of belief and logical support which means that they are fine with assigning probabilities to a one-time event and can use probabilities to represent the uncertainty in any event or hypothesis.
+Bayesians base their probabilities on degrees of belief and logical support which means that they are fine with assigning probabilities to a one-time event and can use probabilities to represent the uncertainty in any event or hypothesis.*
 
 
 ---
